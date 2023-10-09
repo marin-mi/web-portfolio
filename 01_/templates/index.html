@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>投稿アプリ</title>
+</head>
+<body>
+
+<h2>新しい投稿</h2>
+<form action="/post/" method="post">
+    名前: <input type="text" name="name"><br>
+    メールアドレス: <input type="text" name="email"><br>
+    内容: <textarea name="content"></textarea><br>
+    <input type="submit" value="投稿">
+</form>
+
+<h2>投稿一覧</h2>
+<ul>
+{% for post in posts %}
+    <li>{{ post.name }} ({{ post.email }}): {{ post.content }}</li>
+{% endfor %}
+</ul>
+
+</body>
+</html>
