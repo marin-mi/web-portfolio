@@ -1,0 +1,41 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#game {
+    display: flex;
+    justify-content: space-around; /* 要素を画面の両端に配置 */
+    align-items: center;
+    width: 80%; /* ゲームエリアの幅を調整 */
+    max-width: 600px; /* 最大幅を設定 */
+}
+
+.character {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 1; /* デフォルトの順序 */
+}
+
+#player {
+    order: 2; /* 豚（プレイヤー）を右側に移動 */
+}
+
+#enemy {
+    order: 1; /* 馬（敵）を左側に移動 */
+}
+
+#attackButton {
+    position: absolute; /* ボタンを画面下部に固定 */
+    bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
