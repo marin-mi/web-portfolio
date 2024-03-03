@@ -22,5 +22,6 @@ C#とUnityを使って開発し直す予定です。
 ## 04_Pic2lang
 画像ファイルに書かれた文字を読み取りその文字、文章を翻訳するアプリケーションを作成しました。フロントエンドには、HTMLとJavaScript、バックエンドには、Node.js、OCRにはオープンソースライブラリであるTesseract.j、翻訳にはDeepl翻訳が提供するWeb　API、データベース管理にはindexedDBを使っています。
 
-![Uploading 0FUpsdUP3B8Esa9yIk9azdjfkMUrU26Ubun1XHeTw7dVoPOmBLu_dIxMhEYw_npPZfwntNzOZZRWm6lqapVcWVEKMkde-ziCl2f6Qdom2TiUSw9ngHG857WFoMse.png…]()
+<img width="443" alt="0FUpsdUP3B8Esa9yIk9azdjfkMUrU26Ubun1XHeTw7dVoPOmBLu_dIxMhEYw_npPZfwntNzOZZRWm6lqapVcWVEKMkde-ziCl2f6Qdom2TiUSw9ngHG857WFoMse" src="https://github.com/marin-mi/web-portfolio/assets/137694192/2dfdaec6-6140-4118-ba51-da1dc5f3c7de">
+
 
